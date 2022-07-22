@@ -15,3 +15,8 @@
 
 variable "project" {}
 variable "subnet" {}
+variable "_TITLE" {
+  type = string
+  default = $_TITLE
+}
+  
